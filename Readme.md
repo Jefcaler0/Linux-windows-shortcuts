@@ -111,4 +111,4 @@ Feel free to fork this repository, improve the script, and submit a **pull reque
 
 This project is licensed under the **MIT License**.
 
-![Screenshot from 2025-03-18 20-24-40](https://github.com/user-attachments/assets/53fb6bf9-9df6-48da-b1a4-8e27fad9b45e)
+
