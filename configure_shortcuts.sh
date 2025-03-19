@@ -3,8 +3,8 @@
 # Script para replicar accesos directos de Windows en diversas distribuciones de Linux
 # Soporta Debian, Ubuntu, Fedora, Arch, OpenSUSE y más
 # Soporta GNOME, KDE Plasma, XFCE, Cinnamon y MATE
-# Autor: [jcano]
-# Repositorio: []
+# Autor: [jefCaler0]
+# Repositorio: [https://github.com/Jefcaler0/Linux-windows-shortcuts]
 
 DRY_RUN=${DRY_RUN:-false}
 if [ "$DRY_RUN" = "true" ]; then

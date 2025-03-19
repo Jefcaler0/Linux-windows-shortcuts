@@ -2,14 +2,14 @@
 
 ## 📌 Overview
 
-This script automates the process of replicating Windows keyboard shortcuts on **Debian, Ubuntu, Fedora, Arch, OpenSUSE**, supporting **GNOME, KDE Plasma, XFCE, Cinnamon, and MATE**.
+This script automates the process of replicating Windows keyboard shortcuts on **Debian, Ubuntu, Fedora, Arch, OpenSUSE**, supporting **GNOME, KDE Plasma, XFCE, Cinnamon, and MATE**. Execute Mode test with DRY_RUN  and backup Before apply change on system.
+
 
 ## 🎯 Features
 
 -   Detects the **Linux distribution** and **desktop environment** automatically.
 -   Applies **Windows-like shortcuts** for file manager, terminal, settings, and more.
 -   Supports **Debian-based, Fedora-based, Arch-based, and OpenSUSE-based distributions**.
-    
 -   Supports **GNOME, KDE Plasma, XFCE, Cinnamon, and MATE**.
 
 
@@ -30,7 +30,7 @@ This script automates the process of replicating Windows keyboard shortcuts on *
 1.  Clone the repository:
     
     ```
-    git clone https://github.com/your-username/windows-shortcuts-linux.git
+    git clone https://github.com/Jefcaler0/Linux-windows-shortcuts
     cd windows-shortcuts-linux
     ```
     
@@ -44,6 +44,11 @@ This script automates the process of replicating Windows keyboard shortcuts on *
     
     ```
     ./windows_shortcuts.sh
+    ```
+    
+4. opcional Mode Test
+    ```
+     DRY_RUN=true ./windows_shortcuts.sh
     ```
     
 The script will automatically detect your **distribution and desktop environment**, then apply the appropriate shortcuts.
